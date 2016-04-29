@@ -1,21 +1,23 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Phase Change Software</title>
-  <meta name="description" content="Changing the phase of software">
-  <meta name="author" content="Universal Design">
-	<!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/social-media.css">
-	<link rel="stylesheet" href="css/style.css">
 
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script></script>
+<head>
+	<meta charset="utf-8">
+	<title>Phase Change Software</title>
+	<meta name="description" content="Changing the phase of software">
+	<meta name="author" content="Universal Design">
+		<!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/social-media.css">
+  	<link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script></script>
+
 </head>
 
 <body>
@@ -43,32 +45,38 @@
 	    </div>
 	  </nav>
 	</div>
+
 	<main>
-		<div class="container-fluid">
-			<div class="row">
-				<img class="third" src="http://eskipaper.com/images/mountain-wallpapers-3.jpg"/>
-				<img class="third" src="http://eskipaper.com/images/mountain-wallpapers-3.jpg"/>
-				<img class="third" src="http://eskipaper.com/images/mountain-wallpapers-3.jpg"/>
-			</div>
-			<div class="container">
-				<div class="row">
-					<h1 class="text-center">Chaos To Coherence</h1>
-					<div class="col-xs-6 col-sm-4 about-section">
-						<h4 class="text-center">The Innovation</h4>
-						<p class="text-center">Our proprietary AI agent understands and structures the knowledge inherent in software and leverages this knowledge to develop and maintain software systems with unprecedented quality and efficiency.</p>
-					</div>
-					<div class="col-xs-6 col-sm-4 about-section">
-						<h4 class="text-center">The AI</h4>
-						<p class="text-center">We have defined and explored critical, heretofore unrecognized distinctions between applied and theoretical computation. Using novel logical and AI techniques, we have exploited these insights to build capabilities that will fundamentally transform the software engineering process.</p>
-					</div>
-					<div class="col-xs-6 col-sm-4 about-section">
-						<h4 class="text-center">The Reveal</h4>
-						<p class="text-center">We will catalyze a true Phase Change by transforming the current chaos of software development into a coherent future. It is here. It is real.</p>
-					</div>
+		<div class="parallax-container">
+	    <div class="parallax"><img src="img/bg.png"></div>
+	  </div>
+	  <div class="section black">
+	    <div class="row container">
+				<h1 class="video-title white-text">Welcome to Phase Change Software</h1>
+				<div class="video-container">
+					<iframe class="main-vid" src="https://www.youtube.com/embed/apbSsILLh28" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
-		</div>
-	</main>
+			<center>
+				<h3 class="white-text">Program Analysis That Brings Chaos To Coherence </h3>
+				<div class="row text-center button-row">
+					<button class="btn btn-lg btn-success">Learn More</button>
+					<button class="btn btn-lg btn-primary">Work with us</button>
+				</div>
+			</center>
+	  </div>
+
+	  <div class="parallax-container">
+	    <div class="parallax"><img src="img/blue_bg.jpg"></div>
+	  </div>
+  </main>
+ 
+  <script type="text/javascript">
+  	$(document).ready(function(){
+      $('.parallax').parallax();
+      $(".button-collapse").sideNav();
+    });
+  </script>
 
   <footer class="page-footer black">
     <div class="container">
@@ -98,10 +106,5 @@
       </div>
     </div>
   </footer>
-  <script type="text/javascript">
-    $(document).ready(function(){
-      $(".button-collapse").sideNav();
-    });
-  </script> 
 </body>
 </html>
