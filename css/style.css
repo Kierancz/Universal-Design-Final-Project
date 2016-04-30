@@ -62,6 +62,9 @@ nav li {
 nav ul li.active {
   background-color: rgb(60,60,60);
 }
+nav ul li:hover {
+  background-color: black;
+}
 
 .third {
 	width:31%;
@@ -79,12 +82,17 @@ p {
 	height: 100%;
 }
 
-footer {
+footer.page-footer {
+	margin-top: 0px;
+}
+
+.valign-wrapper {
 	margin-top: 0px;
 }
 
 .parallax-container {
-	height: 200px;
+	height: 300px;
+	margin-bottom: 0px;
 }
 
 #contact-banner {
@@ -104,6 +112,15 @@ footer {
 a .waves-effect {
 	background-color: #06626f;
 }
+
+#profile-photo {
+	margin-top: 16px;
+}
+
+.justify {
+	text-align: justify;
+}
+
 
 /*
  * Social Buttons for Bootstrap
