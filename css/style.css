@@ -88,6 +88,10 @@ footer {
 	height: 200px;
 }
 
+#contact-banner {
+	background-color: #ee6e73;
+	margin-bottom: 2em;
+}
 
 /*
  * Social Buttons for Bootstrap
