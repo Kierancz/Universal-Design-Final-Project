@@ -95,10 +95,14 @@ footer {
 	background-color: #8E24AA;
 }
 #about-banner {
-	background-color: #00bcd4;
+	background-color: #06626f;
 }
 #careers-banner {
 	background-color: #039BE5;
+}
+
+a .waves-effect {
+	background-color: #06626f;
 }
 
 /*
