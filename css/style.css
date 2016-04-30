@@ -52,32 +52,18 @@ html{
 	margin-top: 5px;
 	margin-bottom: 5px;
 	margin-left: 20px;
-	height: 50px;
 }
-nav {
-	height: 5em;
+#logo {
+	height: 54px;
 }
 nav li {
-	margin-top: 5px;
-	margin-right: 10px;
+	position: relative;
+	right: 10px;
 }
-nav li .active {
+nav ul li.active {
+  background-color: rgb(60,60,60);
+}
 
-}
-.about-section:nth-child(3) {
-	border-left: 2px #F0F0F0 solid;
-	border-right: 2px #F0F0F0 solid;
-}
-.about-title {
-	
-}
-.person {
-	width: 40%;
-	background-color: #EEEEEE;
-	margin-right: 10px;
-	padding: 0;
-	margin-top: 10px;
-}
 .third {
 	width:31%;
 	margin-left:1%;
@@ -101,6 +87,7 @@ footer {
 .parallax-container {
 	height: 200px;
 }
+
 
 /*
  * Social Buttons for Bootstrap
