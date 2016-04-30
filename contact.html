@@ -49,26 +49,27 @@
   <main>
     <div class="container contact">  
       <div class="row">
-        <form class="col s12 m6 l6">
+        <form class="col s12 m8 offset-m2">
           <div class="row">
             <h5 class="center">Fill out the form below to send us a message</h5>
+            <p class="center">( * indicates required field )</p>
             <div class="input-field col s6">
               <i class="mdi-action-account-circle prefix"></i>
               <input id="icon_prefix" type="text" class="validate"> 
-              <label for="icon_prefix">First Name</label>
+              <label for="icon_prefix">First Name *</label>
             </div>
 
             <div class="input-field col s6">
               <i class="mdi-communication-phone prefix"></i> 
               <input id="icon_telephone" type="tel" class="validate"> 
-              <label for="icon_telephone">Telephone</label>
+              <label for="icon_telephone">Telephone </label>
             </div>
 
           </div>
           <div class="row">
             <div class="input-field col s12">
               <i class="mdi-communication-email prefix"></i> 
-              <input id="email" type="email" class="validate"> <label for="email"> Your E-Mail</label>
+              <input id="email" type="email" class="validate"> <label for="email"> Your E-Mail *</label>
             </div>
           </div>
 
@@ -76,20 +77,12 @@
             <div class="input-field col s12">
               <i class="mdi-editor-mode-edit prefix"></i>
               <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-              <label for="icon_prefix2">Message</label>
+              <label for="icon_prefix2">Message *</label>
             </div>
           </div>
 
-          <a class="waves-effect waves-light btn"><i class="material-icons left">send</i>Submit Message</a>
+          <a class="waves-effect waves-light btn"><i class="material-icons left" aria-hidden="true">send</i>Submit Message</a>
         </form>
-
-          <div class="col s12 m6 l3 offset-l3">
-            <i class="small material-icons left">business</i><h5>Address</h5>
-            <p>Phase Change Software<br>
-      651 Corporate Circle Golden CO <br>6820505</p>
-            <i class="small material-icons left">phone</i><h5>Phone Number</h5>
-            <p>+91 9895234560</p>
-          </div>
 
       </div>
     </div>
@@ -97,11 +90,17 @@
 
   <footer class="page-footer black">
     <div class="container">
-      <div class="row">
+      <div class="row white-text">
         <div class="col l6 s12">
-          <h5 class="white-text">Footer Content</h5>
-            <div class="col s-12 m-8">
-            </div>
+          <div class="col s6 white-text">
+            <i class="small material-icons left" aria-hidden="true">business</i><h5>Address</h5>
+            <p>Phase Change Software<br>
+      651 Corporate Circle Golden CO <br>6820505</p>
+          </div>
+          <div class="col s6">
+            <i class="small material-icons left" aria-hidden="true">phone</i><h5>Phone Number</h5>
+            <p>+91 9895234560</p>
+          </div>
             <p class="grey-text text-lighten-4"></p>
         </div>
         <div class="col l4 offset-l2 s12">
