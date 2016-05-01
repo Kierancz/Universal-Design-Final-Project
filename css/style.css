@@ -138,6 +138,9 @@ a {
 nav a {
 	text-decoration: none;
 }
+.brand-logo:hover {
+	background-color: transparent; 
+}
 a:hover, a:focus {
 	background-color: orange;
 	color: black;
