@@ -65,6 +65,11 @@ nav ul li.active {
 nav ul li:hover {
   background-color: black;
 }
+nav ul a:hover {
+  background-color: black;
+  color: white;
+}
+
 
 .third {
 	width:31%;
