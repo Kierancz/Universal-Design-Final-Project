@@ -127,6 +127,16 @@ a .waves-effect {
 	padding-left: 10px;
 }
 
+a {
+	text-decoration: underline;
+}
+nav a {
+	text-decoration: none;
+}
+a:hover, a:focus {
+	background-color: orange;
+	color: black;
+}
 
 /*
  * Social Buttons for Bootstrap
